@@ -17,28 +17,6 @@ export LDAP_GROUPMEMBERPATTERN='(uniqueMember=${dn})'
 export LDAP_MANAGER_DN="cn=admin,dc=ldap,dc=example,dc=com"
 export LDAP_GROUP_NAME_ADMIN="administrators"
 
-# Gerrit MySQL
-
-export GERRIT_MYSQL_USER="gerrit"
-export GERRIT_MYSQL_PASSWORD="gerrit"
-export GERRIT_MYSQL_DATABASE="gerrit"
-
-# Gerrit
-
-export GERRIT_USER_NAME="Gerrit Code Review"
-export GERRIT_USER_EMAIL="gerrit@adop"
-
-# Gerrit and Jenkins
-
-export JENKINS_PLATFORM_USERNAME="jenkins"
-export GERRIT_PLATFORM_USERNAME="gerrit"
-export GERRIT_JENKINS_USERNAME="jenkins"
-
-# Sonar MySQL
-
-export SONAR_MYSQL_USER="sonar"
-export SONAR_MYSQL_PASSWORD="sonar"
-export SONAR_MYSQL_DATABASE="sonar"
 
 # Jenkins
 
