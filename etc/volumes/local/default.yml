@@ -8,11 +8,6 @@ ldap:
       - ldap_db:/var/lib/ldap
       - ldap_static:/etc/ldap
 
-jenkins-slave:
-  volumes:
-    - jenkins_slave_home:/workspace
-    - /var/run/docker.sock:/var/run/docker.sock
-
 jenkins:
   user: root 
   volumes:
